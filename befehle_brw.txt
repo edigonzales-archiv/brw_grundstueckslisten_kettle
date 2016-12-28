@@ -1,0 +1,29 @@
+-- DROP SCHEMA av_avgbs_brw ;
+
+CREATE SCHEMA av_avgbs_brw
+    AUTHORIZATION stefan;
+
+--DROP TABLE av_avgbs_brw.grundstueckliste;
+
+CREATE TABLE av_avgbs_brw.grundstueckliste
+(
+    ogc_fid serial,
+    gbnr varchar NOT NULL,
+    nbident varchar NOT NULL,
+    bfsnr integer NOT NULL,
+    art varchar NOT NULL,
+    flaeche_lv03 integer,
+    flaeche_lv95 integer,
+    flaeche_diff integer,
+    in_mutation varchar,
+    ordnungsnummer varchar,
+    datum varchar,
+    flaeche_pendent_lv03 integer,
+    flaeche_pendent_lv95 integer,
+    flaeche_pendent_diff integer,
+    bemerkung varchar,
+    CONSTRAINT grundstueckliste_pkey PRIMARY KEY (ogc_fid)
+)
+WITH (
+    OIDS = FALSE
+);

@@ -1,0 +1,20 @@
+Info: ilivalidator-0.3.0-20160910
+Info: ili2c-4.5.23-20160708
+Info: xtfFile </Users/stefan/Dropbox/tmp_kettle/itf/254900_mit_fehler.itf>
+Info: ilidirs <%ITF_DIR;http://models.interlis.ch/;%JAR_DIR>
+Info: lookup model <DM01AVSO24> in repository </Users/stefan/Dropbox/tmp_kettle/itf>
+Info: lookup model <DM01AVSO24> in repository <http://models.interlis.ch/>
+Info: lookup model <DM01AVSO24> in repository <http://models.geo.admin.ch>
+Info: lookup model <DM01AVSO24> in repository <http://models.umleditor.org>
+Info: lookup model <DM01AVSO24> in repository <http://models.kkgeo.ch>
+Info: lookup model <DM01AVSO24> in repository <http://models.interlis.ch>
+Info: lookup model <DM01AVSO24> in repository <http://models.umleditor.org/bgs>
+Info: lookup model <DM01AVSO24> in repository <http://models.geo.gl.ch/>
+Info: lookup model <DM01AVSO24> in repository <http://models.kkgeo.ch/>
+Info: lookup model <DM01AVSO24> in repository <http://geo.so.ch/models/>
+Info: ilifile </Users/stefan/.ilicache/geo.so.ch/models/AGI/dm01avso24.ili>
+Info: validate data...
+Error: line 404: DM01AVSO24.FixpunkteKategorie3.LFP3: tid 8: Attribute Nummer requires a value
+Error: line 406: DM01AVSO24.FixpunkteKategorie3.LFP3: tid 9: Attribute Nummer requires a value
+Warning: arc converted to straight at tid 373, (611770.171, 234250.059, NaN)
+Info: ...validation failed

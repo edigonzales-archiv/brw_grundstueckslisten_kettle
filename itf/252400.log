@@ -1,0 +1,18 @@
+Info: ilivalidator-0.3.0-20160910
+Info: ili2c-4.5.23-20160708
+Info: xtfFile </Users/stefan/Dropbox/tmp_kettle/itf/252400.itf>
+Info: ilidirs <%ITF_DIR;http://models.interlis.ch/;%JAR_DIR>
+Info: lookup model <DM01AVSO24> in repository </Users/stefan/Dropbox/tmp_kettle/itf>
+Info: lookup model <DM01AVSO24> in repository <http://models.interlis.ch/>
+Info: lookup model <DM01AVSO24> in repository <http://models.geo.admin.ch>
+Info: lookup model <DM01AVSO24> in repository <http://models.umleditor.org>
+Info: lookup model <DM01AVSO24> in repository <http://models.kkgeo.ch>
+Info: lookup model <DM01AVSO24> in repository <http://models.interlis.ch>
+Info: lookup model <DM01AVSO24> in repository <http://models.umleditor.org/bgs>
+Info: lookup model <DM01AVSO24> in repository <http://models.geo.gl.ch/>
+Info: lookup model <DM01AVSO24> in repository <http://models.kkgeo.ch/>
+Info: lookup model <DM01AVSO24> in repository <http://geo.so.ch/models/>
+Info: ilifile </Users/stefan/.ilicache/geo.so.ch/models/AGI/dm01avso24.ili>
+Info: validate data...
+Warning: arc converted to straight at tid 68002484, (615185.736, 225961.784, NaN)
+Info: ...validation done
